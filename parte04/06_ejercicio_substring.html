@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*
+ * Escribe un programa que dada una cadena identifique los caracteres del 5 al 10, ambos inclusive.
+ */
+    let userInput = prompt("Escribe una frase o palabra con 5 o más caracteres.")
+    if (userInput.length < 5) {
+        console.log("La frase es demasiado corta.");
+    } else {
+        console.log(userInput.substring(5, 11));
+    }
+    </script>
+</body>
+
+</html>
